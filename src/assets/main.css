@@ -1,0 +1,15 @@
+@import './base.css';
+
+#app {
+  /* min-height: 100vh;
+  max-height: 100vh; */
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 1024px) {
+  #app {
+    width: 70%;
+    margin: auto;
+  }
+}
