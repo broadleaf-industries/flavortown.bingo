@@ -91,7 +91,7 @@ function getRandomSubarray(arr, size) {
   <main class="container">
     <div class="title-container">
       <div>
-        <img class="title-image" src="./assets/flavortown_bingo.png">
+        <img class="title-image" src="./assets/images/flavortown_bingo.png">
       </div>
       <nav>
         <a @click="showHelp()">Help</a> | <a @click="loadCard()">Load New Card</a>
@@ -109,7 +109,7 @@ function getRandomSubarray(arr, size) {
       </div>
       <div class="card-loading" v-if="isLoading">
         <div class="card-loading-title">Rollin' Out</div>
-        <div class="roll-out"><img src="../camaro.png"></div>
+        <div class="roll-out"><img src="./assets/images/camaro.png"></div>
       </div>
       <div class="help" v-if="isShowHelp">
         <h2>My brother from another mother,</h2>
