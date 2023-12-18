@@ -1,5 +1,5 @@
 <script setup>
-import { computed, defineEmits, ref } from 'vue';
+import { computed, defineEmits } from 'vue';
 
 const props = defineProps({
   text: String,
@@ -32,7 +32,7 @@ const toggleStamp = () => {
 }
 .stamped {
   background-color: black;
-  background-image: url('./flames.png');
+  background-image: url('./assets/images/flames.png');
   background-size: cover;
 }
 
