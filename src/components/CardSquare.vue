@@ -32,7 +32,7 @@ const toggleStamp = () => {
 }
 .stamped {
   background-color: black;
-  background-image: url('./assets/images/flames.png');
+  background-image: url('../assets/images/flames.png');
   background-size: cover;
 }
 
